@@ -1,5 +1,15 @@
-const sumAll = function() {
-
+const sumAll = function bigSum(initNum, numsToSumTo) 
+{
+    for (i = initNum; i <= numsToSumTo; i++)
+    {
+        let holder = 0;
+        if (i = initNum)
+        {
+            holder += initNum;
+        }
+        holder += i
+    }
+    return holder
 };
 
 // Do not edit below this line
