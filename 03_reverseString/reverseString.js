@@ -2,12 +2,12 @@ const reverseString = function wordsBackwards(word)
 {
     newWord = '';
 
-    for (i = 0; i < word.length; i++)
-    {
-        newWord += word[length - (i+1)]
-    }
+        for (i = 0; i < word.length; i++)
+        {
+            newWord += word[word.length - (i+1)]
+        }
 
-    return newWord
+        return newWord
 };
 
 // Do not edit below this line
