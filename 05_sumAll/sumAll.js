@@ -6,8 +6,13 @@ const sumAll = function bigSum(initNum, numsToSumTo)
         if (i = initNum)
         {
             holder += initNum;
+
         }
-        holder += i
+        else
+        {
+            holder += i
+        }
+        
     }
     return holder
 };
